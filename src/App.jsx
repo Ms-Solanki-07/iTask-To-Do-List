@@ -95,7 +95,7 @@ function App() {
   return ( 
     <>  
        <RouterProvider router={router} />
-      <div className="container overflow-auto bg-slate-200 md:w-1/2 mx-auto my-4 p-4 text-black h-[86vh] rounded-lg ">
+      <div className="container overflow-auto bg-slate-200 md:w-1/2 w-[92%] mx-auto my-4 p-4 text-black h-[86vh] rounded-lg ">
         <h1 className='font-bold text-xl text-center mb-6'>iTask - Manage your todos at one place</h1>
         <div className='font-bold'>Add a todo</div>
         <div className="add-todo flex gap-5">
